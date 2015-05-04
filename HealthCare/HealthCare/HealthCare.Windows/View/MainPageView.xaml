@@ -12,22 +12,30 @@
     d:DataContext="{d:DesignInstance Type=viewModels:MainPageViewModel, IsDesignTimeCreatable=True}"
     micro:Bind.AtDesignTime="True">
 
-    <Grid Background="White">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="Mostrar Resultados"></AppBarButton>
+                <AppBarButton Label="Sobre"></AppBarButton>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+    <Grid Background="Azure">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="50*"/>
             <ColumnDefinition Width="50*"/>
             <ColumnDefinition Width="50*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="50*"/>
-            <RowDefinition Height="20*"/>
             <RowDefinition Height="50*"/>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0" Grid.Column="1" Background="LightBlue" Margin="10,50,0,50">
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48">Glicose</TextBlock>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,10" FontSize="32" FontStyle="Normal" Foreground="Indigo">Registrar</TextBlock>
+        <Grid Grid.Row="0" Grid.Column="0" Background="Indigo" Margin="10,80,0,50">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32">Glicose</TextBlock>
         </Grid>
-        <Grid Grid.Row="2" Grid.Column="1" Background="LightBlue" Margin="10,50,0,50">
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32">Pressão arterial</TextBlock>
+        <Grid Grid.Row="0" Grid.Column="1" Background="Indigo" Margin="10,80,10,50">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18">Pressão arterial</TextBlock>
         </Grid>
     </Grid>
 </Page>

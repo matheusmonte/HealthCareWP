@@ -15,7 +15,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		HealthCare\HealthCare.Shared\HealthCare.Shared.projitems*{88c03e24-5bbc-4615-a7d4-e4a22abc7cec}*SharedItemsImports = 4
 		HealthCare\HealthCare.Shared\HealthCare.Shared.projitems*{230c8895-5dfd-4495-b3a6-3fe15c2bf838}*SharedItemsImports = 4
-		HealthCare\HealthCare.Shared\CaliburnTemplate.Shared.projitems*{46e9f8a6-792a-457b-a04d-673a33d3b876}*SharedItemsImports = 13
+		HealthCare\HealthCare.Shared\HealthCare.Shared.projitems*{46e9f8a6-792a-457b-a04d-673a33d3b876}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

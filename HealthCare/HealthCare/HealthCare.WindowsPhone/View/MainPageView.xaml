@@ -11,23 +11,46 @@
     mc:Ignorable="d"
     d:DataContext="{d:DesignInstance Type=viewModels:MainPageViewModel, IsDesignTimeCreatable=True}"
     micro:Bind.AtDesignTime="True">
-
-    <Grid Background="White">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="50*"/>
-            <ColumnDefinition Width="50*"/>
-            <ColumnDefinition Width="50*"/>
-        </Grid.ColumnDefinitions>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="Mostrar Resultados"></AppBarButton>
+                <AppBarButton Label="Sobre"></AppBarButton>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+    <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="50*"/>
-            <RowDefinition Height="20*"/>
+            <RowDefinition Height="7*"/>
             <RowDefinition Height="50*"/>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0" Grid.Column="1" Background="LightBlue" Margin="10,50,0,50">
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32">Glicose</TextBlock>
-        </Grid>
-        <Grid Grid.Row="2" Grid.Column="1" Background="LightBlue" Margin="10,50,0,50">
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18">Pressão arterial</TextBlock>
-        </Grid>
+        <TextBlock Grid.Row="0"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,10" FontSize="32" FontStyle="Oblique" Foreground="Indigo">Health Care</TextBlock>
+        <Pivot Grid.Row="1" Margin="0,27.167,0,0" Foreground="Indigo">
+            <PivotItem  Header="Registrar" Foreground="Black">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50*"/>
+                        <ColumnDefinition Width="50*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Row="0" Grid.Column="0" Background="Indigo" Margin="10,80,0,150">
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32" Foreground="Azure">
+        					<Run Text="Glicose"/>
+                        </TextBlock>
+                    </Grid>
+                    <Grid Grid.Row="0" Grid.Column="1" Background="Indigo" Margin="10,80,10,150">
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" Foreground="Azure">
+        					<Run Text="Pressão arterial"/>
+                        </TextBlock>
+                    </Grid>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Glicose" Foreground="Indigo" >
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32" Visibility="{Binding NoResultsGlicoseVisibility}">Sem resultados</TextBlock>
+            </PivotItem>
+            <PivotItem Header="Pressão Arterial" Foreground="Indigo" >
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32" Visibility="{Binding NoResultsPressaoVisibility}">Sem resultados</TextBlock>
+            </PivotItem>
+        </Pivot>
     </Grid>
 </Page>

@@ -16,15 +16,79 @@ using Windows.UI.Xaml.Controls;
 
 namespace HealthCare.ViewModel
 {
-    public  class  MainPageViewModel : Screen
+    public class MainPageViewModel : Screen
     {
         public MainPageViewModel()
         {
         }
 
+        private IObservableCollection<string> _pressaoResults;
+        public IObservableCollection<string> PressaoResults
+        {
+            get
+            {
+                return _pressaoResults;
+            }
+            set
+            {
+                _pressaoResults = value;
+                NotifyOfPropertyChange(() => PressaoResults);
+            }
+        }
+
+        private IObservableCollection<string> _glicoseResults;
+        public IObservableCollection<string> GlicoseResults
+        {
+            get
+            {
+                return _glicoseResults;
+            }
+            set
+            {
+                _glicoseResults = value;
+                NotifyOfPropertyChange(() => GlicoseResults);
+            }
+        }
+
+        private Visibility _noResultsGlicoseVisibility;
+        public Visibility NoResultsGlicoseVisibility
+        {
+            get
+            {
+                return _noResultsGlicoseVisibility;
+            }
+            set
+            {
+                _noResultsGlicoseVisibility = value;
+                NotifyOfPropertyChange(() => NoResultsGlicoseVisibility);
+            }
+        }
+
+        private Visibility _noResultsPressaoVisibility;
+        public Visibility NoResultsPressaoVisibility
+        {
+            get
+            {
+                return _noResultsPressaoVisibility;
+            }
+            set
+            {
+                _noResultsPressaoVisibility = value;
+                NotifyOfPropertyChange(() => NoResultsPressaoVisibility);
+            }
+        }
         protected override void OnActivate()
         {
             base.OnActivate();
+            if (PressaoResults == null)
+            {
+                NoResultsPressaoVisibility = Visibility.Visible;
+            }
+            if (GlicoseResults == null)
+            {
+                NoResultsGlicoseVisibility = Visibility.Visible;
+            }
+
         }
 
         protected override void OnDeactivate(bool close)
