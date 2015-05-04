@@ -1,0 +1,1 @@
+C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.Windows\HealthCare.Windows.csproj;neutral

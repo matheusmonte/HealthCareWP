@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PF00REF3</Machine>
+    <WindowsUser>mmonte</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>fa6a528e-3642-4e76-80dc-45bcbf1c0377</PackageIdentityName>
+    <IntermediateOutputPath>C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>07208FD20DD648D0CACACE9690710211E0E4307FFD1F667628E19057ACEA5D41</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>fa6a528e-3642-4e76-80dc-45bcbf1c0377_1.0.0.0_neutral__88manthzskxmc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>fa6a528e-3642-4e76-80dc-45bcbf1c0377_88manthzskxmc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>fa6a528e-3642-4e76-80dc-45bcbf1c0377</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=mmonte</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-04T21:31:24.407</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.Windows\bin\Debug\HealthCare.Windows.exe">
+      <PackagePath>HealthCare.Windows.exe</PackagePath>
+      <Modified>2015-05-04T22:00:16.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2014-04-29T18:23:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2014-04-29T18:23:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\packages\Caliburn.Micro.Core.2.0.2\lib\portable-net45+win8+wp8+wpa81\Caliburn.Micro.dll">
+      <PackagePath>Caliburn.Micro.dll</PackagePath>
+      <Modified>2015-04-06T15:19:06.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\packages\Caliburn.Micro.2.0.2\lib\win81\Caliburn.Micro.Extensions.dll">
+      <PackagePath>Caliburn.Micro.Extensions.dll</PackagePath>
+      <Modified>2015-04-06T15:19:06.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\packages\Caliburn.Micro.2.0.2\lib\win81\Caliburn.Micro.Platform.dll">
+      <PackagePath>Caliburn.Micro.Platform.dll</PackagePath>
+      <Modified>2015-04-06T15:19:06.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T14:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T14:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T14:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T14:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-05-04T21:31:22.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.Windows\bin\Debug\View\MainPageView.xbf">
+      <PackagePath>View\MainPageView.xbf</PackagePath>
+      <Modified>2015-05-04T22:00:15.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.Windows\bin\Debug\HealthCare.Windows.xr.xml">
+      <PackagePath>HealthCare.Windows.xr.xml</PackagePath>
+      <Modified>2015-05-04T22:00:15.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-05-04T21:31:23.936</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
