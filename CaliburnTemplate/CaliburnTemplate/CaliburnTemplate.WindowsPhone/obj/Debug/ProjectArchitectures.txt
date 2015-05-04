@@ -1,0 +1,1 @@
+C:\workspace\HealthCareWP\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.WindowsPhone\HealthCare.WindowsPhone.csproj;neutral

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PF00REF3</Machine>
+    <WindowsUser>mmonte</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>fa6a528e-3642-4e76-80dc-45bcbf1c0377</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Windows\bin\Debug\CaliburnTemplate.Windows.exe">
+      <PackagePath>CaliburnTemplate.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\packages\Caliburn.Micro.Core.2.0.2\lib\portable-net45+win8+wp8+wpa81\Caliburn.Micro.dll">
+      <PackagePath>Caliburn.Micro.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\packages\Caliburn.Micro.2.0.2\lib\win81\Caliburn.Micro.Extensions.dll">
+      <PackagePath>Caliburn.Micro.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\packages\Caliburn.Micro.2.0.2\lib\win81\Caliburn.Micro.Platform.dll">
+      <PackagePath>Caliburn.Micro.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Windows\bin\Debug\CaliburnTemplate.Windows.xr.xml">
+      <PackagePath>CaliburnTemplate.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mmonte\Documents\Visual Studio 2013\Projects\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

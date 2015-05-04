@@ -1,0 +1,1 @@
+C:\workspace\HealthCareWP\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Windows\HealthCare.Windows.csproj;neutral
