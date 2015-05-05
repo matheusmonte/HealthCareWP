@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 using System;
 using System.Diagnostics;
-using System.Collections.Generic;
 using Windows.UI.Xaml;
 using Windows.UI.Core;
 using System.Threading.Tasks;
@@ -21,7 +20,7 @@ namespace HealthCare.ViewModel
         public MainPageViewModel()
         {
         }
-
+        #region Binding 
         private IObservableCollection<string> _pressaoResults;
         public IObservableCollection<string> PressaoResults
         {
@@ -77,6 +76,8 @@ namespace HealthCare.ViewModel
                 NotifyOfPropertyChange(() => NoResultsPressaoVisibility);
             }
         }
+
+        #endregion
         protected override void OnActivate()
         {
             base.OnActivate();
