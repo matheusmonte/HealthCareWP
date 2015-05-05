@@ -61,8 +61,8 @@
     <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\bin\Debug\View\MainPageView.xbf">
-      <PackagePath>View\MainPageView.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\bin\Debug\Views\MainPageView.xbf">
+      <PackagePath>Views\MainPageView.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\bin\Debug\HealthCare.WindowsPhone.xr.xml">
       <PackagePath>HealthCare.WindowsPhone.xr.xml</PackagePath>

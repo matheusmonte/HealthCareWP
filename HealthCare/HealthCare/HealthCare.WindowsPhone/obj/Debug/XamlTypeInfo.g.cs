@@ -155,7 +155,7 @@ namespace HealthCare.HealthCare_WindowsPhone_XamlTypeInfo
             _typeNameTable[3] = "Object";
             _typeNameTable[4] = "Boolean";
             _typeNameTable[5] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[6] = "HealthCare.View.MainPageView";
+            _typeNameTable[6] = "HealthCare.Views.MainPageView";
             _typeNameTable[7] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[8] = "Windows.UI.Xaml.Controls.UserControl";
 
@@ -166,7 +166,7 @@ namespace HealthCare.HealthCare_WindowsPhone_XamlTypeInfo
             _typeTable[3] = typeof(global::System.Object);
             _typeTable[4] = typeof(global::System.Boolean);
             _typeTable[5] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[6] = typeof(global::HealthCare.View.MainPageView);
+            _typeTable[6] = typeof(global::HealthCare.Views.MainPageView);
             _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
         }
@@ -203,7 +203,7 @@ namespace HealthCare.HealthCare_WindowsPhone_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_6_MainPageView() { return new global::HealthCare.View.MainPageView(); }
+        private object Activate_6_MainPageView() { return new global::HealthCare.Views.MainPageView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -244,7 +244,7 @@ namespace HealthCare.HealthCare_WindowsPhone_XamlTypeInfo
                 xamlType = new global::HealthCare.HealthCare_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  HealthCare.View.MainPageView
+            case 6:   //  HealthCare.Views.MainPageView
                 userType = new global::HealthCare.HealthCare_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_6_MainPageView;
                 userType.SetIsLocalType();

@@ -1,13 +1,13 @@
 ﻿<Page
-    x:Class="HealthCare.View.MainPageView"
+    x:Class="HealthCare.Views.MainPageView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:CaliburnTemplate.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:micro="using:Caliburn.Micro"
-    xmlns:viewModels="using:HealthCare.ViewModel"
-    xmlns:view="using:HealthCare.View"
+    xmlns:viewModels="using:HealthCare.ViewModels"
+    xmlns:view="using:HealthCare.Views"
     mc:Ignorable="d"
     d:DataContext="{d:DesignInstance Type=viewModels:MainPageViewModel, IsDesignTimeCreatable=True}"
     micro:Bind.AtDesignTime="True">

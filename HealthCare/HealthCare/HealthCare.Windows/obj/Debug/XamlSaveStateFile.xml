@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\workspace\healthcarewp\healthcare\healthcare\healthcare.windows\obj\debug\intermediatexaml\healthcare.windows.exe" HashGuid="d180fb2a-0101-ec28-16bb-f25697001671" />
+    <LocalAssembly PathName="c:\workspace\healthcarewp\healthcare\healthcare\healthcare.windows\obj\debug\intermediatexaml\healthcare.windows.exe" HashGuid="498d6b01-2344-9d34-9734-c570c830f863" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
     <ReferenceAssembly PathName="c:\workspace\healthcarewp\healthcare\packages\caliburn.micro.core.2.0.2\lib\portable-net45+win8+wp8+wpa81\caliburn.micro.dll" HashGuid="a9e7d59c-fb07-2261-8294-220427d27b96" />

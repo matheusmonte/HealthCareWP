@@ -61,6 +61,6 @@
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
       <RootProperty Name="Text" />
     </RootType>
-    <RootType FullName="HealthCare.View.MainPageView" />
+    <RootType FullName="HealthCare.Views.MainPageView" />
   </Roots.RootTypes>
 </Roots>

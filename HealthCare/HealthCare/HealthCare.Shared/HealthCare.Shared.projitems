@@ -15,6 +15,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\MainPageViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataSaver\DataAccess.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ArterialPressureModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\GlicoseModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainPageViewModel.cs" />
   </ItemGroup>
 </Project>

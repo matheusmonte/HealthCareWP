@@ -6,16 +6,11 @@ C:\workspace\HealthCareWP\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.Win
 C:\workspace\HealthCareWP\CaliburnTemplate\CaliburnTemplate\CaliburnTemplate.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\App.g.i.cs
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\App.g.cs
-C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\View\MainPageView.g.i.cs
-C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\View\MainPageView.g.cs
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\App.xaml
-C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\View\MainPageView.xaml
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\App.xbf
-C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\View\MainPageView.xbf
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\bin\Debug\App.xbf
-C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\bin\Debug\View\MainPageView.xbf
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\bin\Debug\HealthCare.WindowsPhone.xr.xml
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\bin\Debug\HealthCare.WindowsPhone.exe
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\bin\Debug\HealthCare.WindowsPhone.pdb
@@ -49,3 +44,8 @@ C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debu
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\Caliburn.Micro.Platform.pri.xml
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\ProjectArchitectures.txt
 C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\HealthCare.WindowsPhone.csprojResolveAssemblyReference.cache
+C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\bin\Debug\Views\MainPageView.xbf
+C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\Views\MainPageView.g.i.cs
+C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\Views\MainPageView.g.cs
+C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\Views\MainPageView.xaml
+C:\workspace\HealthCareWP\HealthCare\HealthCare\HealthCare.WindowsPhone\obj\Debug\Views\MainPageView.xbf

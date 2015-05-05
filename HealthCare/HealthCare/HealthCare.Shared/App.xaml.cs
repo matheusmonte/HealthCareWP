@@ -1,5 +1,5 @@
 ﻿using Caliburn.Micro;
-using HealthCare.ViewModel;
+using HealthCare.ViewModels;
 using System;
 using System.Collections.Generic;
 using Windows.ApplicationModel.Activation;
@@ -19,7 +19,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 using System.Collections.ObjectModel;
-using HealthCare.View;
+using HealthCare.Views;
 
 // The Blank Application template is documented at http://go.microsoft.com/fwlink/?LinkId=234227
 
@@ -28,14 +28,13 @@ namespace HealthCare
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
-    public sealed partial class App : CaliburnApplication
+    public sealed partial class App
     {
         private WinRTContainer container;
 
         public App()
         {
             InitializeComponent();
-
         }
 
         protected override void Configure()
@@ -43,8 +42,8 @@ namespace HealthCare
             container = new WinRTContainer();
 
             container.RegisterWinRTServices();
-            //Adicione aqui as suas ViewModels
-            container.Singleton<MainPageViewModel>();
+
+            container.PerRequest<MainPageViewModel>();
         }
 
         protected override void PrepareViewFirst(Frame rootFrame)
@@ -54,7 +53,6 @@ namespace HealthCare
 
         protected override void OnLaunched(LaunchActivatedEventArgs args)
         {
-            //Adicione aqui a primeira página do seu app
             DisplayRootView<MainPageView>();
         }
 

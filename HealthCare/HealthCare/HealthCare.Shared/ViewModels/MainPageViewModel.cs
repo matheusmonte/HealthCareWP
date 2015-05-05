@@ -12,17 +12,26 @@ using System.Collections.ObjectModel;
 using Windows.Storage;
 using Windows.Foundation;
 using Windows.UI.Xaml.Controls;
+using HealthCare.DataSaver;
+using HealthCare.Model;
 
-namespace HealthCare.ViewModel
+namespace HealthCare.ViewModels
 {
     public class MainPageViewModel : Screen
     {
-        public MainPageViewModel()
+        private DataAccess _dataAccess;
+        protected readonly IEventAggregator _eventAggregator;
+        protected readonly INavigationService _navigationService;
+       
+        public MainPageViewModel(INavigationService navigationService, IEventAggregator eventAggregator)
         {
+            _navigationService = navigationService;
+            _eventAggregator = eventAggregator;
+            _dataAccess = new DataAccess();
         }
         #region Binding 
-        private IObservableCollection<string> _pressaoResults;
-        public IObservableCollection<string> PressaoResults
+        private ObservableCollection<ArterialPressureModel> _pressaoResults;
+        public ObservableCollection<ArterialPressureModel> PressaoResults
         {
             get
             {
@@ -35,8 +44,8 @@ namespace HealthCare.ViewModel
             }
         }
 
-        private IObservableCollection<string> _glicoseResults;
-        public IObservableCollection<string> GlicoseResults
+        private ObservableCollection<GlicoseModel> _glicoseResults;
+        public ObservableCollection<GlicoseModel> GlicoseResults
         {
             get
             {
@@ -80,7 +89,18 @@ namespace HealthCare.ViewModel
         #endregion
         protected override void OnActivate()
         {
-            base.OnActivate();
+
+            List<ArterialPressureModel> arterialPressureList = _dataAccess.RecoveryPressureData();
+            if (arterialPressureList != null)
+            {
+                PressaoResults = new ObservableCollection<ArterialPressureModel>(arterialPressureList);
+            }
+            List<GlicoseModel> glicoseList = _dataAccess.RecoveryGlicoseData();
+            if (glicoseList != null)
+            {
+                GlicoseResults = new ObservableCollection<GlicoseModel>(glicoseList);
+            }
+
             if (PressaoResults == null)
             {
                 NoResultsPressaoVisibility = Visibility.Visible;
@@ -90,6 +110,11 @@ namespace HealthCare.ViewModel
                 NoResultsGlicoseVisibility = Visibility.Visible;
             }
 
+        }
+        protected override void OnViewReady(object view)
+        {
+            base.OnViewReady(view);
+           
         }
 
         protected override void OnDeactivate(bool close)
